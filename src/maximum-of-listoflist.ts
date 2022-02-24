@@ -12,5 +12,4 @@ function findMax(list: number[]): number {
   }
   return max;
 }
-
 export default maxListofList;
