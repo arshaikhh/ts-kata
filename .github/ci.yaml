@@ -1,9 +1,0 @@
-- name: Check quality with ESLint
-      run: yarn lint
-    - name: Check type compilation with TypeScript
-      run: yarn test:types
-      run: yarn type-check
-    - name: Run tests with Jest
-      run: yarn test 
-    - name: Run typescript compiler check
-      run: yarn type-check
