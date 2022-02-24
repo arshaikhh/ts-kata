@@ -1,6 +1,6 @@
 import maxListofList from "./maximum-of-listoflist";
 
-test("return maximum of each list as a list",() => {
+test("return maximum of each list as a list", () => {
   expect(
     maxListofList([
       [1, 2, 3],
@@ -16,4 +16,3 @@ test("return maximum of each list as a list",() => {
     ])
   ).toStrictEqual([15, 3, 7]);
 });
-
